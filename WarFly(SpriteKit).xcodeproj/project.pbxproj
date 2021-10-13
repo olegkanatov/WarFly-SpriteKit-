@@ -29,6 +29,7 @@
 		1955C2A12716D6C30052CB83 /* YellowAmmo.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1955C2A02716D6C30052CB83 /* YellowAmmo.atlas */; };
 		1955C2A42716D74B0052CB83 /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955C2A32716D74B0052CB83 /* Shot.swift */; };
 		1955C2A62716D8EB0052CB83 /* YellowShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955C2A52716D8EB0052CB83 /* YellowShot.swift */; };
+		1955C2A82716E4020052CB83 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955C2A72716E4020052CB83 /* Assets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		1955C2A02716D6C30052CB83 /* YellowAmmo.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = YellowAmmo.atlas; sourceTree = "<group>"; };
 		1955C2A32716D74B0052CB83 /* Shot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shot.swift; sourceTree = "<group>"; };
 		1955C2A52716D8EB0052CB83 /* YellowShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowShot.swift; sourceTree = "<group>"; };
+		1955C2A72716E4020052CB83 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				1918EA6F27144C8B0015B7CA /* AppDelegate.swift */,
 				1918EA7527144C8B0015B7CA /* GameScene.swift */,
+				1955C2A72716E4020052CB83 /* Assets.swift */,
 				191A29932715A23B00817B7F /* Enemy.swift */,
 				1918EA8A27145B090015B7CA /* PlayerPlane.swift */,
 				1918EA86271450FF0015B7CA /* Island.swift */,
@@ -206,6 +209,7 @@
 				1955C29D2716D2D90052CB83 /* BluePowerUp.swift in Sources */,
 				1918EA7827144C8B0015B7CA /* GameViewController.swift in Sources */,
 				1918EA7027144C8B0015B7CA /* AppDelegate.swift in Sources */,
+				1955C2A82716E4020052CB83 /* Assets.swift in Sources */,
 				191A29942715A23B00817B7F /* Enemy.swift in Sources */,
 				1955C29F2716D2E50052CB83 /* GreenPowerUp.swift in Sources */,
 				1918EA87271450FF0015B7CA /* Island.swift in Sources */,
