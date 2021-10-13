@@ -31,6 +31,7 @@
 		1955C2A62716D8EB0052CB83 /* YellowShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955C2A52716D8EB0052CB83 /* YellowShot.swift */; };
 		1955C2A82716E4020052CB83 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955C2A72716E4020052CB83 /* Assets.swift */; };
 		1955C2AA2716E7130052CB83 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955C2A92716E7130052CB83 /* MenuScene.swift */; };
+		1955C2AC2716E9E60052CB83 /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955C2AB2716E9E60052CB83 /* BitMaskCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		1955C2A52716D8EB0052CB83 /* YellowShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowShot.swift; sourceTree = "<group>"; };
 		1955C2A72716E4020052CB83 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		1955C2A92716E7130052CB83 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		1955C2AB2716E9E60052CB83 /* BitMaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +98,9 @@
 				1955C2A92716E7130052CB83 /* MenuScene.swift */,
 				1918EA7527144C8B0015B7CA /* GameScene.swift */,
 				1955C2A72716E4020052CB83 /* Assets.swift */,
-				191A29932715A23B00817B7F /* Enemy.swift */,
+				1955C2AB2716E9E60052CB83 /* BitMaskCategory.swift */,
 				1918EA8A27145B090015B7CA /* PlayerPlane.swift */,
+				191A29932715A23B00817B7F /* Enemy.swift */,
 				1918EA86271450FF0015B7CA /* Island.swift */,
 				1918EA88271455990015B7CA /* Cloud.swift */,
 				1955C2A32716D74B0052CB83 /* Shot.swift */,
@@ -217,6 +220,7 @@
 				1955C29F2716D2E50052CB83 /* GreenPowerUp.swift in Sources */,
 				1918EA87271450FF0015B7CA /* Island.swift in Sources */,
 				191A2990271598CC00817B7F /* PowerUp.swift in Sources */,
+				1955C2AC2716E9E60052CB83 /* BitMaskCategory.swift in Sources */,
 				1955C2AA2716E7130052CB83 /* MenuScene.swift in Sources */,
 				1955C2A42716D74B0052CB83 /* Shot.swift in Sources */,
 				1918EA8527144EB70015B7CA /* Background.swift in Sources */,

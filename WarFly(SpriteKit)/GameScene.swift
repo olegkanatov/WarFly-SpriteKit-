@@ -14,6 +14,8 @@ class GameScene: SKScene {
     var player: PlayerPlane!
     
     override func didMove(to view: SKView) {
+        physicsWorld.contactDelegate = self
+        physicsWorld.gravity = CGVector.zero
         
         configureStartScene()
         spawnClouds()
@@ -150,4 +152,15 @@ class GameScene: SKScene {
         playerFire()
     }
     
+}
+
+extension GameScene: SKPhysicsContactDelegate {
+    
+    func didBegin(_ contact: SKPhysicsContact) {
+        print("contact detected")
+    }
+    
+    func didEnd(_ contact: SKPhysicsContact) {
+        print("asdascontact detected")
+    }
 }
