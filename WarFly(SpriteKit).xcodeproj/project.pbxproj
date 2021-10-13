@@ -26,6 +26,9 @@
 		1955C29B2716D0890052CB83 /* BluePowerUp.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1955C29A2716D0890052CB83 /* BluePowerUp.atlas */; };
 		1955C29D2716D2D90052CB83 /* BluePowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955C29C2716D2D90052CB83 /* BluePowerUp.swift */; };
 		1955C29F2716D2E50052CB83 /* GreenPowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955C29E2716D2E50052CB83 /* GreenPowerUp.swift */; };
+		1955C2A12716D6C30052CB83 /* YellowAmmo.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1955C2A02716D6C30052CB83 /* YellowAmmo.atlas */; };
+		1955C2A42716D74B0052CB83 /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955C2A32716D74B0052CB83 /* Shot.swift */; };
+		1955C2A62716D8EB0052CB83 /* YellowShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955C2A52716D8EB0052CB83 /* YellowShot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		1955C29A2716D0890052CB83 /* BluePowerUp.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BluePowerUp.atlas; sourceTree = "<group>"; };
 		1955C29C2716D2D90052CB83 /* BluePowerUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluePowerUp.swift; sourceTree = "<group>"; };
 		1955C29E2716D2E50052CB83 /* GreenPowerUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenPowerUp.swift; sourceTree = "<group>"; };
+		1955C2A02716D6C30052CB83 /* YellowAmmo.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = YellowAmmo.atlas; sourceTree = "<group>"; };
+		1955C2A32716D74B0052CB83 /* Shot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shot.swift; sourceTree = "<group>"; };
+		1955C2A52716D8EB0052CB83 /* YellowShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowShot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,8 @@
 				1918EA8A27145B090015B7CA /* PlayerPlane.swift */,
 				1918EA86271450FF0015B7CA /* Island.swift */,
 				1918EA88271455990015B7CA /* Cloud.swift */,
+				1955C2A32716D74B0052CB83 /* Shot.swift */,
+				1955C2A52716D8EB0052CB83 /* YellowShot.swift */,
 				191A298F271598CC00817B7F /* PowerUp.swift */,
 				1955C29C2716D2D90052CB83 /* BluePowerUp.swift */,
 				1955C29E2716D2E50052CB83 /* GreenPowerUp.swift */,
@@ -97,13 +105,22 @@
 				1918EA7927144C8B0015B7CA /* Main.storyboard */,
 				1918EA7C27144C8F0015B7CA /* Assets.xcassets */,
 				1918EA7E27144C8F0015B7CA /* Info.plist */,
+				1955C2A22716D7270052CB83 /* Atlas */,
+			);
+			path = "WarFly(SpriteKit)";
+			sourceTree = "<group>";
+		};
+		1955C2A22716D7270052CB83 /* Atlas */ = {
+			isa = PBXGroup;
+			children = (
+				1955C2A02716D6C30052CB83 /* YellowAmmo.atlas */,
 				1955C29A2716D0890052CB83 /* BluePowerUp.atlas */,
 				191A29952715A28800817B7F /* Enemy_1.atlas */,
 				191A29972715A9F900817B7F /* Enemy_2.atlas */,
 				191A29912715999100817B7F /* GreenPowerUp.atlas */,
 				1918EA8C27145B9F0015B7CA /* PlayerPlane.atlas */,
 			);
-			path = "WarFly(SpriteKit)";
+			path = Atlas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				191A29922715999100817B7F /* GreenPowerUp.atlas in Resources */,
+				1955C2A12716D6C30052CB83 /* YellowAmmo.atlas in Resources */,
 				1955C29B2716D0890052CB83 /* BluePowerUp.atlas in Resources */,
 				1918EA8D27145B9F0015B7CA /* PlayerPlane.atlas in Resources */,
 				1918EA7B27144C8B0015B7CA /* Main.storyboard in Resources */,
@@ -181,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1918EA7627144C8B0015B7CA /* GameScene.swift in Sources */,
+				1955C2A62716D8EB0052CB83 /* YellowShot.swift in Sources */,
 				1918EA8B27145B090015B7CA /* PlayerPlane.swift in Sources */,
 				191A298E2715857400817B7F /* protocol GameBackgroundSpriteble + Extension.swift in Sources */,
 				1918EA89271455990015B7CA /* Cloud.swift in Sources */,
@@ -191,6 +210,7 @@
 				1955C29F2716D2E50052CB83 /* GreenPowerUp.swift in Sources */,
 				1918EA87271450FF0015B7CA /* Island.swift in Sources */,
 				191A2990271598CC00817B7F /* PowerUp.swift in Sources */,
+				1955C2A42716D74B0052CB83 /* Shot.swift in Sources */,
 				1918EA8527144EB70015B7CA /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
