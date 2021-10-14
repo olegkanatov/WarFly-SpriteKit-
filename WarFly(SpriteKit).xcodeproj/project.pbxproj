@@ -39,6 +39,8 @@
 		19FD1A1227183A2800B48FC4 /* ParentScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD1A1127183A2800B48FC4 /* ParentScene.swift */; };
 		19FD1A1427183C0600B48FC4 /* OptionsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD1A1327183C0600B48FC4 /* OptionsScene.swift */; };
 		19FD1A16271843CA00B48FC4 /* BestScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD1A15271843CA00B48FC4 /* BestScene.swift */; };
+		19FD1A192718478600B48FC4 /* EnemyExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 19FD1A172718478600B48FC4 /* EnemyExplosion.sks */; };
+		19FD1A1A2718478600B48FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FD1A182718478600B48FC4 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,8 @@
 		19FD1A1127183A2800B48FC4 /* ParentScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentScene.swift; sourceTree = "<group>"; };
 		19FD1A1327183C0600B48FC4 /* OptionsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsScene.swift; sourceTree = "<group>"; };
 		19FD1A15271843CA00B48FC4 /* BestScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestScene.swift; sourceTree = "<group>"; };
+		19FD1A172718478600B48FC4 /* EnemyExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EnemyExplosion.sks; sourceTree = "<group>"; };
+		19FD1A182718478600B48FC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 		1918EA6E27144C8B0015B7CA /* WarFly(SpriteKit) */ = {
 			isa = PBXGroup;
 			children = (
+				19FD1A1B2718479A00B48FC4 /* Particles */,
 				1955C2B32717065A0052CB83 /* Scenes */,
 				1955C2B22717063A0052CB83 /* Managers */,
 				1955C2B4271706730052CB83 /* Classes */,
@@ -201,6 +206,15 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		19FD1A1B2718479A00B48FC4 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				19FD1A172718478600B48FC4 /* EnemyExplosion.sks */,
+				19FD1A182718478600B48FC4 /* Assets.xcassets */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -259,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				191A29922715999100817B7F /* GreenPowerUp.atlas in Resources */,
+				19FD1A192718478600B48FC4 /* EnemyExplosion.sks in Resources */,
 				1955C2A12716D6C30052CB83 /* YellowAmmo.atlas in Resources */,
 				1955C29B2716D0890052CB83 /* BluePowerUp.atlas in Resources */,
+				19FD1A1A2718478600B48FC4 /* Assets.xcassets in Resources */,
 				1918EA8D27145B9F0015B7CA /* PlayerPlane.atlas in Resources */,
 				1918EA7B27144C8B0015B7CA /* Main.storyboard in Resources */,
 				191A29982715A9F900817B7F /* Enemy_2.atlas in Resources */,
