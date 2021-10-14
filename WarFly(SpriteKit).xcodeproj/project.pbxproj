@@ -41,6 +41,7 @@
 		19FD1A16271843CA00B48FC4 /* BestScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD1A15271843CA00B48FC4 /* BestScene.swift */; };
 		19FD1A192718478600B48FC4 /* EnemyExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 19FD1A172718478600B48FC4 /* EnemyExplosion.sks */; };
 		19FD1A1A2718478600B48FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FD1A182718478600B48FC4 /* Assets.xcassets */; };
+		19FD1A1D27184B8900B48FC4 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD1A1C27184B8900B48FC4 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		19FD1A15271843CA00B48FC4 /* BestScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestScene.swift; sourceTree = "<group>"; };
 		19FD1A172718478600B48FC4 /* EnemyExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EnemyExplosion.sks; sourceTree = "<group>"; };
 		19FD1A182718478600B48FC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19FD1A1C27184B8900B48FC4 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				19FD1A15271843CA00B48FC4 /* BestScene.swift */,
 				19FD1A1327183C0600B48FC4 /* OptionsScene.swift */,
 				1918EA7527144C8B0015B7CA /* GameScene.swift */,
+				19FD1A1C27184B8900B48FC4 /* GameOverScene.swift */,
 				19FD1A1127183A2800B48FC4 /* ParentScene.swift */,
 			);
 			path = Scenes;
@@ -302,6 +305,7 @@
 				1918EA7027144C8B0015B7CA /* AppDelegate.swift in Sources */,
 				1955C2A82716E4020052CB83 /* Assets.swift in Sources */,
 				191A29942715A23B00817B7F /* Enemy.swift in Sources */,
+				19FD1A1D27184B8900B48FC4 /* GameOverScene.swift in Sources */,
 				19FD1A102718344B00B48FC4 /* SceneManager.swift in Sources */,
 				1955C29F2716D2E50052CB83 /* GreenPowerUp.swift in Sources */,
 				1918EA87271450FF0015B7CA /* Island.swift in Sources */,
