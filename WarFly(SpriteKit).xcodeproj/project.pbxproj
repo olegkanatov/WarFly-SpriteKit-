@@ -35,6 +35,7 @@
 		1955C2AE2717047A0052CB83 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955C2AD2717047A0052CB83 /* HUD.swift */; };
 		19FD1A0C27182DF900B48FC4 /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD1A0B27182DF900B48FC4 /* ButtonNode.swift */; };
 		19FD1A0E271831F800B48FC4 /* PauseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD1A0D271831F800B48FC4 /* PauseScene.swift */; };
+		19FD1A102718344B00B48FC4 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD1A0F2718344B00B48FC4 /* SceneManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		1955C2AD2717047A0052CB83 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 		19FD1A0B27182DF900B48FC4 /* ButtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
 		19FD1A0D271831F800B48FC4 /* PauseScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseScene.swift; sourceTree = "<group>"; };
+		19FD1A0F2718344B00B48FC4 /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			children = (
 				1955C2A72716E4020052CB83 /* Assets.swift */,
 				1955C2AB2716E9E60052CB83 /* BitMaskCategory.swift */,
+				19FD1A0F2718344B00B48FC4 /* SceneManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				1918EA7027144C8B0015B7CA /* AppDelegate.swift in Sources */,
 				1955C2A82716E4020052CB83 /* Assets.swift in Sources */,
 				191A29942715A23B00817B7F /* Enemy.swift in Sources */,
+				19FD1A102718344B00B48FC4 /* SceneManager.swift in Sources */,
 				1955C29F2716D2E50052CB83 /* GreenPowerUp.swift in Sources */,
 				1918EA87271450FF0015B7CA /* Island.swift in Sources */,
 				191A2990271598CC00817B7F /* PowerUp.swift in Sources */,
