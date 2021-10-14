@@ -44,6 +44,7 @@
 		19FD1A1D27184B8900B48FC4 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD1A1C27184B8900B48FC4 /* GameOverScene.swift */; };
 		19FD1A20271853FB00B48FC4 /* backgroundMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 19FD1A1E271853FA00B48FC4 /* backgroundMusic.m4a */; };
 		19FD1A21271853FB00B48FC4 /* hitSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 19FD1A1F271853FA00B48FC4 /* hitSound.wav */; };
+		19FD1A23271855AB00B48FC4 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD1A22271855AB00B48FC4 /* GameSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		19FD1A1C27184B8900B48FC4 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		19FD1A1E271853FA00B48FC4 /* backgroundMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = backgroundMusic.m4a; sourceTree = "<group>"; };
 		19FD1A1F271853FA00B48FC4 /* hitSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitSound.wav; sourceTree = "<group>"; };
+		19FD1A22271855AB00B48FC4 /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				1955C2A72716E4020052CB83 /* Assets.swift */,
 				1955C2AB2716E9E60052CB83 /* BitMaskCategory.swift */,
 				19FD1A0F2718344B00B48FC4 /* SceneManager.swift */,
+				19FD1A22271855AB00B48FC4 /* GameSettings.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			files = (
 				1918EA7627144C8B0015B7CA /* GameScene.swift in Sources */,
 				1955C2A62716D8EB0052CB83 /* YellowShot.swift in Sources */,
+				19FD1A23271855AB00B48FC4 /* GameSettings.swift in Sources */,
 				1918EA8B27145B090015B7CA /* PlayerPlane.swift in Sources */,
 				191A298E2715857400817B7F /* protocol GameBackgroundSpriteble + Extension.swift in Sources */,
 				1918EA89271455990015B7CA /* Cloud.swift in Sources */,
