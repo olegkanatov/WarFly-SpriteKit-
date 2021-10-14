@@ -38,6 +38,7 @@
 		19FD1A102718344B00B48FC4 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD1A0F2718344B00B48FC4 /* SceneManager.swift */; };
 		19FD1A1227183A2800B48FC4 /* ParentScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD1A1127183A2800B48FC4 /* ParentScene.swift */; };
 		19FD1A1427183C0600B48FC4 /* OptionsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD1A1327183C0600B48FC4 /* OptionsScene.swift */; };
+		19FD1A16271843CA00B48FC4 /* BestScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD1A15271843CA00B48FC4 /* BestScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		19FD1A0F2718344B00B48FC4 /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
 		19FD1A1127183A2800B48FC4 /* ParentScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentScene.swift; sourceTree = "<group>"; };
 		19FD1A1327183C0600B48FC4 /* OptionsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsScene.swift; sourceTree = "<group>"; };
+		19FD1A15271843CA00B48FC4 /* BestScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 			children = (
 				1955C2A92716E7130052CB83 /* MenuScene.swift */,
 				19FD1A0D271831F800B48FC4 /* PauseScene.swift */,
+				19FD1A15271843CA00B48FC4 /* BestScene.swift */,
 				19FD1A1327183C0600B48FC4 /* OptionsScene.swift */,
 				1918EA7527144C8B0015B7CA /* GameScene.swift */,
 				19FD1A1127183A2800B48FC4 /* ParentScene.swift */,
@@ -287,6 +290,7 @@
 				1955C29F2716D2E50052CB83 /* GreenPowerUp.swift in Sources */,
 				1918EA87271450FF0015B7CA /* Island.swift in Sources */,
 				191A2990271598CC00817B7F /* PowerUp.swift in Sources */,
+				19FD1A16271843CA00B48FC4 /* BestScene.swift in Sources */,
 				1955C2AC2716E9E60052CB83 /* BitMaskCategory.swift in Sources */,
 				19FD1A1227183A2800B48FC4 /* ParentScene.swift in Sources */,
 				1955C2AA2716E7130052CB83 /* MenuScene.swift in Sources */,
