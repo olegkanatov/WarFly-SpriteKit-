@@ -18,7 +18,7 @@ class GameScene: SKScene {
     fileprivate let screenSize = UIScreen.main.bounds.size
     
     override func didMove(to view: SKView) {
-        
+        self.scene?.isPaused = false
         // cheking if scene persists
         guard sceneManager.gameScene == nil else { return }
         
@@ -169,6 +169,8 @@ class GameScene: SKScene {
             let transition = SKTransition.doorway(withDuration: 1.0)
             let pauseScene = PauseScene(size: self.size)
             pauseScene.scaleMode = .aspectFill
+            sceneManager.gameScene = self
+            self.scene?.isPaused = true
             self.scene?.view?.presentScene(pauseScene, transition: transition)
         } else {
             playerFire()
