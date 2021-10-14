@@ -9,6 +9,7 @@ import SpriteKit
 
 class Assets {
     static let shared = Assets()
+    var isLoaded = false
     let yellowAmmoAtlas = SKTextureAtlas(named: "YellowAmmo")
     let bluePowerUpAtlas = SKTextureAtlas(named: "BluePowerUp")
     let enemy_1Atlas = SKTextureAtlas(named: "Enemy_1")

@@ -33,6 +33,7 @@
 		1955C2AA2716E7130052CB83 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955C2A92716E7130052CB83 /* MenuScene.swift */; };
 		1955C2AC2716E9E60052CB83 /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955C2AB2716E9E60052CB83 /* BitMaskCategory.swift */; };
 		1955C2AE2717047A0052CB83 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955C2AD2717047A0052CB83 /* HUD.swift */; };
+		19FD1A0C27182DF900B48FC4 /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD1A0B27182DF900B48FC4 /* ButtonNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		1955C2A92716E7130052CB83 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		1955C2AB2716E9E60052CB83 /* BitMaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
 		1955C2AD2717047A0052CB83 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		19FD1A0B27182DF900B48FC4 /* ButtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				1955C2B32717065A0052CB83 /* Scenes */,
-				1955C2B4271706730052CB83 /* Classes */,
 				1955C2B22717063A0052CB83 /* Managers */,
+				1955C2B4271706730052CB83 /* Classes */,
 				1955C2B1271705FA0052CB83 /* Protocols + Extensions */,
 				1955C2B0271705E80052CB83 /* Controllers */,
 				1955C2AF271705CC0052CB83 /* Supporting files */,
@@ -168,6 +170,7 @@
 		1955C2B4271706730052CB83 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				19FD1A0B27182DF900B48FC4 /* ButtonNode.swift */,
 				1918EA8427144EB70015B7CA /* Background.swift */,
 				1955C2AD2717047A0052CB83 /* HUD.swift */,
 				1918EA8A27145B090015B7CA /* PlayerPlane.swift */,
@@ -276,6 +279,7 @@
 				1955C2AE2717047A0052CB83 /* HUD.swift in Sources */,
 				1955C2A42716D74B0052CB83 /* Shot.swift in Sources */,
 				1918EA8527144EB70015B7CA /* Background.swift in Sources */,
+				19FD1A0C27182DF900B48FC4 /* ButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "WarFly(SpriteKit)/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/WarFly(SpriteKit)/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -433,7 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "WarFly(SpriteKit)/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/WarFly(SpriteKit)/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -25,7 +25,7 @@ class HUD: SKScene {
         scoreLabel.verticalAlignmentMode = .center
         scoreLabel.position = CGPoint(x: -10, y: 3)
         scoreLabel.zPosition = 100
-        scoreLabel.fontName = "AmericanTypewritter-Bold"
+        scoreLabel.fontName = "AmericanTypewriter-Bold"
         scoreLabel.fontSize = 30
         scoreBackground.addChild(scoreLabel)
         
